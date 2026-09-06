@@ -1,0 +1,20 @@
+# Repository and Wrangler internals
+.git/
+.wrangler/
+
+# Worker/config/schema files
+api-worker.js
+schema.sql
+wrangler.toml
+.gitignore
+
+# Deployment documentation
+README.md
+DEPLOY_TEST.txt
+START_2.0.txt
+DEPLOY_2.0.txt
+D1_BINDING_DEPLOY_NOTE.txt
+
+# Documentation and design reference
+docs__*
+design-reference__*

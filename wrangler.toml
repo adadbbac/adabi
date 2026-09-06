@@ -1,0 +1,12 @@
+name = "arabya-2-test"
+main = "api-worker.js"
+compatibility_date = "2026-09-05"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# D1 is intentionally bound from the Cloudflare Dashboard:
+# Worker → Bindings → D1 database → Variable name: DB → adab-arabi
+# Do not declare a local D1 database block in this file.
